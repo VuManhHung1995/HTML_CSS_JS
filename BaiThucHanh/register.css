@@ -48,6 +48,9 @@
 .form_login p {
     font-size: 12px;
 }
+.form_login p input {
+    margin-right: 3px;
+}
 .form_login button {
     width: 100%;
     margin: 15px 0;
