@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    margin: 0 20%;
+}
+
+.contact {
+    float: left;
+    width: 40%;
+}
+.contact h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 30px 0;
+    position: relative;
+}
+.contact h2::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+.contact h4 {
+    margin-bottom: 15px;
+}
+.contact div {
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.contact div svg {
+    margin-right: 5px;
+    text-align:center;
+}
+.contact div span {
+    display: inline-block;
+    max-width: 150px;
+    font-size: 12px;
+}
+.form_send_message {
+    float: left;
+    width: 60%;
+    margin-top: 80px;
+}
+.form_send_message h4 {
+    margin-bottom: 15px;
+}
+.form_send_message input,textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 0.5px rgba(189, 180, 180, 0.3);
+    
+}
+::-webkit-input-placeholder {
+    color:rgba(0, 0, 0, 0.3);
+}
+.form_send_message input {
+    padding: 5px 0 5px 5px;
+}
+.form_send_message textarea {
+    padding-left: 5px;
+}
+.form_send_message button {
+    border: none;
+    background-color: rgb(52, 180, 148);
+    color: white;
+    padding: 10px;
+}
