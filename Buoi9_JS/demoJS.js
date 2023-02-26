@@ -46,3 +46,31 @@
 //     reversedStr += str[i];
 //   }
 //   console.log("Chuỗi đảo ngược là: " + reversedStr);
+
+// BT trên LMS 
+// BT01 
+// let VL = parseInt(prompt("Nhập vào điểm VL :"));
+// let HH = parseInt(prompt("Nhập vào điểm HH :"));
+// let SH = parseInt(prompt("Nhập vào điểm SH :"));
+//     if(isNaN(VL) || isNaN(HH) || isNaN(SH)) {
+//         console.log("giá trị nhập ko phải số");
+//     }else {
+//         console.log("Điểm trung bình là " + (VL + HH + SH) / 3);
+//         console.log("Điểm tổng là : " + VL + HH + SH);
+//         console.log("số hàng đơn vị: " + num%10)
+//     }
+// BT02
+// let doC = parseInt(prompt("Hãy nhập giá trị độ C :"));
+//     if(isNaN(doC)) {
+//         console.log("giá trị nhập ko phải số");
+//     }else {
+//         console.log("Độ F: " + 9*doC/5 + 32);
+//     }
+// // BT03 + BT04
+// let r = parseInt(prompt("Hãy nhập bán kính đường tròn :"));
+    // if(isNaN(r)) {
+    //     console.log("giá trị nhập ko phải số");
+    // }else {
+    //     console.log("diện tích: " + r*r);
+    //     console.log("chu vi: " + 2*Math.PI*r);
+    // }
