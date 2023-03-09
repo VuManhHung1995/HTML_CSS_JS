@@ -169,3 +169,52 @@
 // for (let i = a + 1; i < b; i++) {
 //     arrSoNguyen.push(i);
 // }
+
+
+// Bai tap tren LMS
+// Bai tap 1 
+// Sử dụng các hàm có sẵn của mảng
+// Bài 1
+var myColor = ["Red", "Green", "Blue"];
+myColor.join();
+// Bài 2
+var arr = [0,4,3,5,6,8];
+var arrCoDau = [];
+for (let i = 0; i < arr.length - 1; i++) {
+  arrCoDau.push(arr[i]);
+  if(arr[i] % 2 ==0 && arr[i + 1] % 2 ==0){
+    arrCoDau.push("-");
+  }
+}
+arrCoDau.push(arr[arr.length - 1]);
+console.log(arrCoDau.join(""));
+// Bài 3
+var str = "The Quick Brown Fox";
+var strDaoNguocChuHoaThuong = "";
+for (let i = 0; i < str.length; i++) {
+    if("a" <= str[i] && str[i] <= "z"){
+      strDaoNguocChuHoaThuong+=str[i].toUpperCase();
+    }else {
+      strDaoNguocChuHoaThuong+=str[i].toLowerCase();
+    }
+}
+console.log(strDaoNguocChuHoaThuong);
+// Bài tập 2 Ứng dụng từ điển 
+
+// Bài tập 3 Ứng dụng vui Faking TextArea
+let str3 = "Mày Ngu Quá ";
+let strHienThi = "";
+let count = 0;
+let textArea = document.getElementById("textArea");
+textArea.onkeyup = function() {
+    if(count < str3.length) {
+        strHienThi +=str3[count];
+        count++;
+        textArea.value = strHienThi;
+    } else {
+        count = 0;
+        textArea.value = "";
+        strHienThi = ""
+    }
+    
+}
