@@ -133,8 +133,8 @@ document.getElementById("yes").onclick = function() {
 let windowHeight = window.innerHeight;
 let windowWidth = window.window.innerWidth;
 document.getElementById("No").onmouseover = function(e) {
-    e.target.offsetTop = Math.random().windowHeight;
-    e.target.offsetWidth = Math.random.windowWidth;
+    e.target.clientTop = Math.random().windowHeight;
+    e.target.clientWidth = Math.random.windowWidth;
 }
 
 // BT05

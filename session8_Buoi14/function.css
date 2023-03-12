@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    background-image: url("./image/loi-bai-hat-em-la-ke-dang-thuong-700.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#clock {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+span {
+    text-align: center;
+    font-size: 80px;
+    color: red;
+    margin: 10px;
+    padding: 20px;
+}
