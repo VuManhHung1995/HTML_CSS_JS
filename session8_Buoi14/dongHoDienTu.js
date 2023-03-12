@@ -130,3 +130,5 @@ function changeImage() {
     let num = randomValue(arrImg.length);
     document.getElementsByTagName("body")[0].style.backgroundImage = `url("./image/${arrImg[num]}")`;
 }
+
+// Tạo đồng hồ đếm ngược

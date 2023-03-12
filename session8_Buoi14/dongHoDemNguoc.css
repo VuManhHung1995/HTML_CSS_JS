@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#clock {
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+span {
+    text-align: center;
+    font-size: 80px;
+    color: red;
+    margin: 10px;
+    padding: 20px;
+}
+#chicken {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.chicken {
+    width: 100px;
+    height: 100px;
+    background-image: url("./image/Rhode_Island_Red_Rooster2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#score {
+    color: red;
+    font-size: 30px;
+    margin-top: 20px;
+}
